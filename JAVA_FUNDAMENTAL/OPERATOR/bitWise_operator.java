@@ -20,10 +20,10 @@ public class bitWise_operator {
         int anss=~a;
         System.out.println("the ans will be:"+anss);
 //left shift
-        int ansss=a<<2;//out put re 12*2=24,24*2=48..bcz left shift re 2 lekha achi toh 2 times multiplication haba
+        int ansss=a<<2;//
         System.out.println("the ans is:"+ansss);
         //right shift
-        int resultt=7>>2;//12/2=6,6/2=3..total opposite of left shift operator..in case of odd number integer division haba i.e 7>>2...7/2=3,3/2=1(ans)
+        int resultt=7>>2;//12/2=6,6/2=3
         System.out.println("result is:"+resultt);
     }
 }

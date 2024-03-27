@@ -1,0 +1,38 @@
+package JAVA_FUNDAMENTAL.Array;
+
+public class max_min_Array {
+    public static void main(String[] args) {
+        System.out.println("welcome to max and min program:");
+        int[] numArr=ArrayUTILITY.inputArray();
+        int max=max(numArr);
+        int min=min(numArr);
+        System.out.println("mix of the Array is: "+ max);
+        System.out.println("min of the Array is: "+min);
+
+    }
+    public static int max(int[] numArr){
+        if (numArr.length==0){//if the size of the array is zero,means there is no element int thr array
+            return Integer.MIN_VALUE;
+        }
+        int max=numArr[0];//assume that the first index element is maximum
+        int i=1;
+        while(i<numArr.length){
+            if(max<numArr[i]){
+                max=numArr[i];
+            }
+            i++;
+        }
+        return max;
+    }
+    public static int min(int[] numArr){
+        int min=Integer.MAX_VALUE;
+        int i=0;
+        while(i<numArr.length){
+           if(min>numArr[i]) {
+               min=numArr[i];
+           }
+           i++;
+        }
+        return min;
+    }
+}

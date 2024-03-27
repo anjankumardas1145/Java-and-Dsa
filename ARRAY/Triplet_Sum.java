@@ -18,6 +18,7 @@ public class Triplet_Sum {
             for (int j=i+1;j<n;j++){//second number
                 for (int k=j+1;k<n;k++){//third number
                     if (arr[i]+arr[j]+arr[k]==sum){
+                        System.out.println( " the indices are :[ "+i+" "+ j +" "+ k+ "]");
                         count++;
                     }
                 }

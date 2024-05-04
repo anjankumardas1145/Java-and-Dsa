@@ -54,7 +54,7 @@ class human extends MAmals{
         System.out.println("human are intelligent");
     }
 }
-class dog extends MAmals{
+class doog extends MAmals{
     public void isBark(){
         System.out.println("they barking");
     }

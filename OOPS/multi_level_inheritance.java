@@ -2,15 +2,15 @@ package OOPS;
 
 public class multi_level_inheritance {
     public static void main(String[] args) {
-Animal a1=new Animal();
+anjan a1=new anjan();
 a1.color="red";
-Dog D1=new Dog();
+dog D1=new dog();
 D1.color="black";
         System.out.println(D1.color+ " ,"+a1.color);
 D1.eat();
     }
 }
-class Animal{
+class anjan{
     String color;
     void eat(){
         System.out.println("eats");
@@ -20,10 +20,10 @@ class Animal{
     }
 }
 //derived class
-class Mamal extends Animal{
+class Mamal extends anjan {
     int legs;
 }
-class Dog extends Mamal{
+class dog extends Mamal{
     String breed;
    public void isBark(){
        System.out.println("they bark");

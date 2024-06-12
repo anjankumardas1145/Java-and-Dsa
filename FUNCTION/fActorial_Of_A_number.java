@@ -2,7 +2,7 @@ package FUNCTION;
 
 import java.util.Scanner;
 
-public class fActorial_Of_A_number {
+public class   fActorial_Of_A_number {
    public static void Factorial(int n){
        if (n<0){
           System.out.println("invalid number:");

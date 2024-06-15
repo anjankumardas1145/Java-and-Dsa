@@ -18,7 +18,7 @@ public class PRIME_NUMBER_LOGIC {
         }
     public static void main(String[] args) {
 
-        ISprime(4);
+        ISprime(5);
     }
 
 }

@@ -22,7 +22,7 @@ public class Constructure {
 
 
    public static void main(String[] args) {
-        Constructure c1=new Constructure(21,"anjan");
+        Constructure c1=new Constructure(22,"Anjan");
        System.out.println(c1.name);
        System.out.println(c1.id);
 //        c1.setId(34);

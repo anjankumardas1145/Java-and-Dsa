@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class InputCal {
     public int add(){
-        System.out.println("Enter two number:");
+        System.out.println("Enter two number for sum:");
         Scanner sc=new Scanner(System.in);
         int a= sc.nextInt();
         int b= sc.nextInt();
@@ -12,7 +12,7 @@ public class InputCal {
     }
 
         public int sub(){
-            System.out.println("Enter two number:");
+            System.out.println("Enter two number for substraction:");
             Scanner sc=new Scanner(System.in);
             int a= sc.nextInt();
             int b= sc.nextInt();

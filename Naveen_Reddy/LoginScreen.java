@@ -56,7 +56,7 @@ public class LoginScreen extends JFrame {
         panel.add(b5);
         panel.add(b6);
 
-        l1.setBounds(200, 30, 300, 25);
+        l1.setBounds(200, 30, 300, 26);
         l2.setBounds(100, 50, 100, 25);
         l3.setBounds(100, 80, 100, 35);
         l4.setBounds(220, 230, 300, 25);

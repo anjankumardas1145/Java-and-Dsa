@@ -92,10 +92,10 @@ public class LoginScreen extends JFrame {
         public void actionPerformed(ActionEvent e1) {
             String S1 = t1.getText();
             String S2 = t2.getText();
-            if (S1.equals("Ankita") && S2.equals("Dipi Didi")) {
-                l4.setText("Registration Successful Dipi Didi");
+            if (S1.equals("Anjan") && S2.equals("Rohit")) {
+                l4.setText("Registration Successful Anjan");
             } else {
-                l4.setText("Not Successful Dipi Didi");
+                l4.setText("Not Successful Anjan");
             }
         }
     }
@@ -116,7 +116,7 @@ public class LoginScreen extends JFrame {
                 l4.setText("The addition of the numbers is: " + c);
             } catch (Exception p) {
                 System.out.println(p.getMessage());
-                l4.setText("Please enter valid numbers Dipi Didi");
+                l4.setText("Please enter valid numbers Anjan");
             }
         }
     }
@@ -130,7 +130,7 @@ public class LoginScreen extends JFrame {
                 l4.setText("The subtraction of the numbers is: " + c);
             } catch (Exception p) {
                 System.out.println(p.getMessage());
-                l4.setText("Please enter valid numbers Dipi Didi");
+                l4.setText("Please enter valid numbers Anjan");
             }
         }
     }
@@ -144,7 +144,7 @@ public class LoginScreen extends JFrame {
                 l4.setText("The multiplication of the numbers is: " + c);
             } catch (Exception p) {
                 System.out.println(p.getMessage());
-                l4.setText("Please enter valid numbers Dipi Didi");
+                l4.setText("Please enter valid numbers Anjan");
             }
         }
     }
@@ -162,7 +162,7 @@ public class LoginScreen extends JFrame {
                 }
             } catch (Exception p) {
                 System.out.println(p.getMessage());
-                l4.setText("Please enter valid numbers Dipi Didi");
+                l4.setText("Please enter valid numbers Anjan");
             }
         }
     }

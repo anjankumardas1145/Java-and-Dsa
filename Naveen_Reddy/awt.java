@@ -6,5 +6,6 @@ public class awt {
         f.setVisible(true);
         f.setSize(100,200);
         f.setTitle("MY frsame");
+        f.setLocationRelativeTo(null);
     }
 }

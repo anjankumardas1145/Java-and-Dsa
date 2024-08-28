@@ -5,7 +5,7 @@ public class print_finite_time {
     static void p(){
         count++;
         if(count<=5){
-            System.out.println("ANJAN "+count);
+            System.out.println("Ankita "+count);
             p();
         }
     }

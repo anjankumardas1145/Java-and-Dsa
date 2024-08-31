@@ -1,11 +1,6 @@
 package IMPORTANT_QUESTION;
 import java.util.Scanner;
 public class com {
-
-
-
-
-
         // Function to check if a number is composite
         public static boolean isComposite(int num) {
             if (num <= 1) {

@@ -1,6 +1,24 @@
 package LINKED_LIST;
 
 public class Revision_1 {
+    public static void displatR(Node head){
+        if (head==null){
+            return;
+        }
+        System.out.print(head.data+ " ");
+        System.out.println();
+        displatR(head.next);
+       // System.out.println();
+    }
+
+    public static void display(Node head){
+        Node temp=head;
+        while(temp!=null){
+            System.out.print( " " +temp.data);
+            temp=temp.next;
+        }
+        System.out.println();
+    }
     public static class Node{
         int data;
         Node next;
@@ -16,6 +34,7 @@ public class Revision_1 {
         Node d=new Node(5);
         Node e=new Node(4);
         Node f=new Node(3);
+
 //        System.out.println(a.next);
 //        System.out.println(a);
 //        System.out.println(a.data);
@@ -36,13 +55,15 @@ public class Revision_1 {
         c.next=d;
         d.next=e;
         e.next=f;
-        System.out.println(a.data);
-        System.out.println(a.next.data);
-        System.out.println(a.next.next.data);
-        System.out.println(a.next.next.next.data);
-        System.out.println(a.next.next.next.next.data);
-
-            System.out.println(a.next.next.next.next.next.data);
+        display(a);
+        displatR(a);
+//        System.out.println(a.data);
+//        System.out.println(a.next.data);
+//        System.out.println(a.next.next.data);
+//        System.out.println(a.next.next.next.data);
+//        System.out.println(a.next.next.next.next.data);
+//
+//            System.out.println(a.next.next.next.next.next.data);
 
 
 
@@ -51,6 +72,13 @@ public class Revision_1 {
             System.out.print(temp.data+ " ");
             temp=temp.next;
         }
+        System.out.println();
 
+//when i hava number od elements then what i have to do is
+        Node tmp=a;
+        while (tmp!=null){
+            System.out.print(tmp.data+" ");
+            tmp=tmp.next;
+        }
     }
 }

@@ -7,7 +7,7 @@ public class Reverse_of_A_String {
         System.out.println("enter the string:");
 //        Scanner sc=new Scanner(System.in);
 //        String str=sc.nextLine();
-        String str="AAA" ;
+        String str="BBB" ;
        int i=0;
        int j=str.length()-1;
        boolean flag=true;// true means palindrome

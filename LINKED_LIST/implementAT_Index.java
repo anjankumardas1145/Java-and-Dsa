@@ -41,6 +41,7 @@ public class implementAT_Index {
      linklist ll=new linklist();
      ll.insertAT(4);
      ll.insertAT(5);
+     ll.insertAT(6);
         ll.display();
     }
 }

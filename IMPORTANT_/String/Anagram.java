@@ -9,8 +9,8 @@ public class Anagram {
             }
 
             // Convert both strings to character arrays
-            char[] arr1 = str1.toCharArray();
-            char[] arr2 = str2.toCharArray();
+            char[] arr1 = str1.toCharArray();//store in the form of {l,i,s,t,e,n}
+            char[] arr2 = str2.toCharArray();//{s,i,l,e,n,t}
 
             // Sort both arrays manually
             for (int i = 0; i < arr1.length - 1; i++) {
@@ -27,6 +27,8 @@ public class Anagram {
                     }
                 }
             }
+            // after sorting the arr1 will be {e,i,l,n,s,t}
+            //                     arr2 will be {e,i,l,n,s,t}
 
             // Compare both sorted arrays manually
             for (int i = 0; i < arr1.length; i++) {

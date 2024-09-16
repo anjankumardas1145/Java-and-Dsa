@@ -43,7 +43,10 @@ public class Anagram {
             String str1 = "listen";
             String str2 = "silent";
 
-            if (isAnagram(str1, str2)) {
+            boolean result = isAnagram(str1, str2);
+
+            // Print the result
+            if (result) {
                 System.out.println(str1 + " and " + str2 + " are anagrams.");
             } else {
                 System.out.println(str1 + " and " + str2 + " are not anagrams.");

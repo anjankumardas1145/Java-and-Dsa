@@ -34,6 +34,20 @@ public void addLast(int data){
         tail.next=newNode;
         tail=newNode;
 }
+
+//  insert int he middle
+    public void add(int idx,int data){
+        Node newNode=new Node(data);
+        Node temp=head;
+        int i=0;
+        while (i<idx-1){
+            temp=temp.next;
+            i++;
+        }
+        //i=idx-1;temp->prev
+        newNode.next=temp.next;
+        temp.next=newNode;
+    }
     // Method to print the list
     public void printList() {
         Node temp = head;
@@ -47,14 +61,15 @@ public void addLast(int data){
 
     public static void main(String[] args) {
         addFirst_in_linklist ll = new addFirst_in_linklist();
-        ll.printList();
+       // ll.printList();
         ll.addFirst(2); // Add nodes to the list
-        ll.printList();
+        //ll.printList();
         ll.addFirst(1);
-        ll.printList();
+       // ll.printList();
         ll.addLast(3);
-        ll.printList();
+        //ll.printList();
         ll.addLast(4);
+        ll.add(2,9);
 
         ll.printList(); // Print the list after adding nodes
     }

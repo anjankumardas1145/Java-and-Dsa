@@ -12,7 +12,8 @@ public class Anagram {
             char[] arr1 = str1.toCharArray();//store in the form of {l,i,s,t,e,n}
             char[] arr2 = str2.toCharArray();//{s,i,l,e,n,t}
 
-            // Sort both arrays manually
+            // Sort both arrays manually// arr1[]={e,i,l,n,s,t}
+                                             //arr2[]={e,i,l,n,s,t}
             for (int i = 0; i < arr1.length - 1; i++) {
                 for (int j = i + 1; j < arr1.length; j++) {
                     if (arr1[i] > arr1[j]) {

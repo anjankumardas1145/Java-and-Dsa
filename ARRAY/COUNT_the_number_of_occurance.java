@@ -29,6 +29,6 @@ public class COUNT_the_number_of_occurance {
         int k = sc.nextInt();
         occurance(arr, k);
 
-        System.out.println("count the number of occurance:" +occurance(arr,k));
+        System.out.println("The number :"+k+" is entered " +occurance(arr,k)+" times by the user");
     }
 }

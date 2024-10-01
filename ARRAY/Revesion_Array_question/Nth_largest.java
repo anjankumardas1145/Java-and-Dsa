@@ -17,10 +17,10 @@ public class Nth_largest {
     }
 
     public static void main(String[] args) {
-        int[] arr = {3, 2, 1, 5, 6, 4};
+        int[] arr = {3, 2, 1, 5, 6, 4,7};
         int k = 2;
-        System.out.println(kthLargest(arr, k));  // Output: 5
-        // if the arry is {3, 2, 1, 5, 6,6, 4};then output is 6 ,so my code is only applicable gor unique element
+        System.out.println(kthLargest(arr, k));  // Output: 6
+        
 
     }
 }

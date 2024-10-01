@@ -21,6 +21,6 @@ public class Nth_largest {
         int k = 2;
         System.out.println(kthLargest(arr, k));  // Output: 5
         // if the arry is {3, 2, 1, 5, 6,6, 4};then output is 6 ,so my code is only applicable gor unique element
-        
+
     }
 }

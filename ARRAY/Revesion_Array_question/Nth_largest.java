@@ -20,7 +20,8 @@ public class Nth_largest {
         int[] arr = {3, 2, 1, 5, 6, 4,7};
         int k = 2;
         System.out.println(kthLargest(arr, k));  // Output: 6
-        
+
 
     }
 }
+//System.out.println("Jay Jagannath");

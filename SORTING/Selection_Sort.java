@@ -16,6 +16,8 @@ public class Selection_Sort {
         for (int i=0;i<n;i++){
             System.out.print(arr[i]+" ");
         }
+
+        // logic for selection sort
         for (int i=0;i<n;i++){
             for (int j=i+1;j<n;j++){
                 if (arr[i]>arr[j]){
@@ -25,7 +27,7 @@ public class Selection_Sort {
                 }
 
             }
-            //System.out.println("the sorted array: is");
+
 
         }
         System.out.println("the sorted array is:");
